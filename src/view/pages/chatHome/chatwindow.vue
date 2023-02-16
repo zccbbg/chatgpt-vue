@@ -203,7 +203,7 @@ export default {
         this.loading = true
         this.isSend = true;
         let chatGPT = {
-          headImg: require("@/assets/img/head_portrait.jpg"),
+          headImg: require("@/assets/img/head_portrait1.jpg"),
           name: "凤雏",
           time: new Date().toLocaleTimeString(),
           msg: "",
@@ -458,6 +458,10 @@ export default {
 
             &:hover {
               background-color: rgb(39, 42, 55);
+            }
+
+            pre{
+              white-space: break-spaces;
             }
           }
 
