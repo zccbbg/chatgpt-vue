@@ -3,10 +3,10 @@ ChatGPT模型是由OpenAI训练的大型语言模型，能够生成类人文本�
 本项目需要提前注册好OpenAI并拿到API KEY，然后在项目api/getData.js中的chatgpt方法中修改Authorization内容即可。
 
 ## 项目启动
-npm install
-npm run serve
+`npm install`
+
+`npm run serve`
 
 ## 项目预览
 ![输入图片说明](src/assets/img/preview.png)
 ![输入图片说明](src/assets/img/preview1.png)
-![输入图片说明](src/assets/img/preview2.png)
