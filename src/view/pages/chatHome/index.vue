@@ -2,8 +2,8 @@
   <div class="chatHome">
     <div class="chatLeft">
       <div class="title">
-        <h1>Chat-大聪明</h1>
-        <el-tag type="success">Designed By 柴宁</el-tag>
+        <h1>Chat-字节叔叔</h1>
+        <el-tag type="success">关注诚乐信息公众号</el-tag>
         <br/>
       </div>
       <div class="online-person">

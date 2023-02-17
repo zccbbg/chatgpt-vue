@@ -28,7 +28,7 @@ export const getChatMsg = params => {
       data: params,
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer xxxxx`,
+        'Authorization': `Bearer ${process.env.VUE_APP_CHATGPT_KEY}`,
       }
     }).then(res => res.data)
   }
