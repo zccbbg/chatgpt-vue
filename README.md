@@ -1,6 +1,9 @@
-ChatGPT模型是由OpenAI训练的大型语言模型，能够生成类人文本。通过向它提供提示，它可以生成继续对话或扩展给定提示的响应。由于目前ChatGPT并未向我们开放注册，所以想要体验要大费周折。
-
-本项目需要提前注册好OpenAI并拿到API KEY，然后在项目api/getData.js中的chatgpt方法中修改Authorization内容即可。
+## 使用前提
+* 有Openai账号，并且创建好`api_key`，注册相关事项可以参考[此文章](https://juejin.cn/post/7173447848292253704) 。访问[这里](https://beta.openai.com/account/api-keys)，申请个人秘钥。
+* 本项目需要提前注册好OpenAI并拿到API KEY，然后在项目api/getData.js中的chatgpt方法中修改Authorization内容即可。
+* 可以与后端项目配合使用,项目地址如下。
+github: https://github.com/zccbbg/chatgpt-springboot-service
+gitee: https://gitee.com/zccbbg/chatgpt-springboot-service
 
 ## 项目启动
 `npm install`
@@ -8,9 +11,8 @@ ChatGPT模型是由OpenAI训练的大型语言模型，能够生成类人文本�
 `npm run serve`
 
 ## 项目预览
-![输入图片说明](src/assets/img/preview.png)
-![输入图片说明](src/assets/img/preview1.png)
-![输入图片说明](src/assets/img/preview2.png)
+![输入图片说明](src/assets/img/1.jpg)
+![输入图片说明](src/assets/img/2.jpg)
 
 
 > 该项目基于 https://gitee.com/mao-yongyao/chatroom 进行二次开发
