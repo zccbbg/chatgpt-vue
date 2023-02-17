@@ -69,7 +69,7 @@ export default {
     return {
       chatList: [
         {
-          "headImg": "img/head_portrait1.84f92874.jpg",
+          "headImg": "img/head_portrait1.png",
           "name": "ChatGPT",
           "time": new Date().toLocaleTimeString(),
           "msg": " ChatGPT为您服务",
@@ -107,7 +107,7 @@ export default {
         this.loading = true
         this.isSend = true;
         let chatGPT = {
-          headImg: require("@/assets/img/head_portrait1.jpg"),
+          headImg: require("@/assets/img/head_portrait1.png"),
           name: "ChatGPT",
           time: new Date().toLocaleTimeString(),
           msg: "",

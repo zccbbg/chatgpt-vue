@@ -19,11 +19,11 @@ let friendList = Mock.mock(
     [
         {
             img: "",
-            name: "凤雏",
+            name: "chatgpt",
             detail: "Welcome Chat",
             lastMsg: "to do",
             id: "1002",
-            headImg: require("@/assets/img/head_portrait1.jpg"),
+            headImg: require("@/assets/img/head_portrait1.png"),
 
         },
         // {
@@ -59,10 +59,10 @@ let chatMsg1002 = Mock.mock(
         // },
 
         {
-            headImg: require("@/assets/img/head_portrait1.jpg"),
-            name: "凤雏",
+            headImg: require("@/assets/img/head_portrait1.png"),
+            name: "chatgpt",
             time: "09：12 AM",
-            msg: " 小凤同学为您服务",
+            msg: " gpt-3模型为您服务",
             chatType: 0, //信息类型，0文字，1图片
             uid: "1002", //uid
         }

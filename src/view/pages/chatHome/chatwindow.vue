@@ -203,8 +203,8 @@ export default {
         this.loading = true
         this.isSend = true;
         let chatGPT = {
-          headImg: require("@/assets/img/head_portrait1.jpg"),
-          name: "凤雏",
+          headImg: require("@/assets/img/head_portrait1.png"),
+          name: "chatgpt",
           time: new Date().toLocaleTimeString(),
           msg: "",
           chatType: 0, //信息类型，0文字，1图片
