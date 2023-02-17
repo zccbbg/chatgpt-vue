@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Home></Home>
+    <router-view />
   </div>
 </template>
 
@@ -33,8 +33,21 @@ export default {
 }
 
 #app {
-  width: 100vw;
+  //width: 100vw;
   height: 100vh;
-  background-color: rgb(151,157,167);
+  //background-color: rgb(151,157,167);
+  overflow: hidden;
+}
+body {
+  box-sizing: border-box;
+}
+</style>
+<style>
+@font-face {
+  font-family: 'Oxygen';
+  src: url("@/assets/font/Oxygen-Light.ttf");
+}
+body {
+  font-family: Oxygen, Arial, sans-serif;
 }
 </style>
